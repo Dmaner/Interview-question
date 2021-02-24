@@ -1,6 +1,6 @@
 # Interview-question
 
-面试准备大纲&amp;题目
+面试准备大纲 & 面试题
 
 ## 算法 🐳
 
@@ -8,13 +8,14 @@
 
 ## 操作系统 🐣
 
+- [面试题](os/Readme.md)
 - [Linux](https://github.com/Dmaner/Operating-system-learning)
 
 ## 计算机网络 🕸
 
-- TCP/IP协议栈
+- [TCP/IP协议栈](net/tcp-ip.md)
 - HTTP/HTTPS
-- [Nginx]
+- [Nginx](https://github.com/Dmaner/nginx-note)
 
 ## 数据库 🍂
 
