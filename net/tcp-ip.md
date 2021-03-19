@@ -12,7 +12,7 @@
 - [广播和多播](#广播和多播)
 - [DNS](#dns协议)
 - UDP
-- TCP
+- [TCP](#tcp协议)
 - [TLS](#tls协议)
 
 ## ARP协议
@@ -83,6 +83,44 @@ ICMP协议的全称是网际控制报文协议（Internet Control Message Protoc
 ## UDP协议
 
 ## TCP协议
+
+### 简介
+
+- TCP协议是面向连接，可靠，全双工单播的字节流服务
+
+- TCP报文头
+
+![image](../images/tcp-header.png)
+
+- 控制位
+
+```shell
+CWR：用于 IP 首部的 ECN 字段。ECE 为 1 时，则通知对方已将拥塞窗口缩小。
+ECE：在收到数据包的 IP 首部中 ECN 为 1 时将 TCP 首部中的 ECE 设置为 1，表示从对方到这边的网络有拥塞。
+URG：紧急模式
+ACK：确认
+PSH：推送，接收方应尽快给应用程序传送这个数据。没用到
+RST：该位为 1 表示 TCP 连接中出现异常必须强制断开连接。
+SYN：初始化一个连接的同步序列号
+FIN：该位为 1 表示今后不会有数据发送，希望断开连接。
+```
+
+- TCP选项
+
+![image](../images/tcp-options.jpg)
+
+### TCP连接管理
+
+- 一次TCP连接
+
+![image](../images/tcp-connection.png)
+
+- 三次握手&四次挥手&TIME_WAIT时间
+  
+[链接1](https://blog.csdn.net/qzcsu/article/details/72861891)
+[链接2](https://zhuanlan.zhihu.com/p/53374516)
+
+### TCP超时和重传
 
 ## TLS协议
 
