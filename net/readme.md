@@ -49,7 +49,7 @@ GET和POST方法区别
 
 ## HTTPS协议流程
 
-- [image](../images/https.png)
+![image](../images/https.png)
 
 ## HTTPS和HTTP的区别
 

@@ -2,9 +2,9 @@
 
 面试准备大纲 & 面试题
 
-## 算法 🐳
+## [算法]((https://github.com/Dmaner/Algorithm)) 🐳
 
-- [LeetCode](https://github.com/Dmaner/Algorithm)
+- LeetCode
 
 ## [操作系统](os/Readme.md) 🐣
 
